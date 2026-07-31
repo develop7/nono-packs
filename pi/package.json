@@ -1,27 +1,62 @@
 {
   "schema_version": 1,
   "name": "pi",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "Pi Coding Agent package and matching nono profile. Provides sandbox-aware diagnostics on permission failures and ships the pi profile via the registry.",
   "license": "Apache-2.0",
-  "platforms": ["macos", "linux"],
+  "platforms": [
+    "macos",
+    "linux"
+  ],
   "min_nono_version": "0.55.0",
-  "keywords": ["pi-package", "nono", "sandbox", "security", "capabilities"],
+  "keywords": [
+    "pi-package",
+    "nono",
+    "sandbox",
+    "security",
+    "capabilities"
+  ],
   "pi": {
-    "extensions": ["extensions"],
-    "skills": ["skills"]
+    "extensions": [
+      "extensions"
+    ],
+    "skills": [
+      "skills"
+    ]
   },
   "peerDependencies": {
     "@earendil-works/pi-coding-agent": "*"
   },
   "artifacts": [
-    { "type": "profile", "path": "policy.json", "install_as": "pi" },
-    { "type": "plugin", "path": "README.md" },
-    { "type": "plugin", "path": "extensions/nono-sandbox.ts" },
-    { "type": "plugin", "path": "assets/logo.png" },
-    { "type": "plugin", "path": "skills/nono-sandbox/SKILL.md" },
-    { "type": "plugin", "path": "wiring/packages-entry.json" },
-    { "type": "plugin", "path": "wiring/profile-drafts-dir-marker" }
+    {
+      "type": "profile",
+      "path": "policy.json",
+      "install_as": "pi"
+    },
+    {
+      "type": "plugin",
+      "path": "README.md"
+    },
+    {
+      "type": "plugin",
+      "path": "extensions/nono-sandbox.ts"
+    },
+    {
+      "type": "plugin",
+      "path": "assets/logo.png"
+    },
+    {
+      "type": "plugin",
+      "path": "skills/nono-sandbox/SKILL.md"
+    },
+    {
+      "type": "plugin",
+      "path": "wiring/packages-entry.json"
+    },
+    {
+      "type": "plugin",
+      "path": "wiring/profile-drafts-dir-marker"
+    }
   ],
   "wiring": [
     {

@@ -4,7 +4,7 @@
   ],
   "meta": {
     "name": "antigravity",
-    "version": "1.0.0",
+    "version": "0.3.1",
     "description": "Runtime-discovered path additions for agy",
     "author": null
   },
@@ -31,10 +31,7 @@
       "~/.gemini",
       "~/.gemini/antigravity-cli/log",
       "~/go/src",
-      "~/Library/Caches/ms-playwright-go/1.57.0",
-      "~/dev/nono-workspace/nono-packs-demo",
-      "~/dev/nono-workspace/nono-packs/antigravity",
-      "~/dev/nono-workspace/nono-packs/antigravity/skills/nono-sandbox",
+      "~/Library/Caches/ms-playwright-go",
       "~/go/pkg/mod"
     ],
     "write": [

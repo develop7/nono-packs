@@ -35,7 +35,6 @@
       "~/go/pkg/mod"
     ],
     "write": [
-      "~/.local/bin",
       "~/.gemini/config/projects"
     ],
     "allow_file": [],

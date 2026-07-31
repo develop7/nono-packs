@@ -77,7 +77,7 @@
   "env_credentials": {},
   "environment": null,
   "workdir": {
-    "access": "none"
+    "access": "readwrite"
   },
   "hooks": {},
   "session_hooks": {},

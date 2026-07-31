@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "name": "antigravity",
-  "version": "0.2.0",
+  "version": "0.3.0",
   "description": "Antigravity CLI (agy) plugin for working inside a nono sandbox. Ships a nono-sandbox skill plus a PostToolUse hook that surfaces sandbox-aware diagnostics on permission failures.",
   "license": "Apache-2.0",
   "platforms": [
@@ -14,16 +14,42 @@
       "type": "profile",
       "path": "policy.json",
       "install_as": "antigravity",
-      "aliases": ["agy"]
+      "aliases": [
+        "agy"
+      ]
     },
-    { "type": "plugin", "path": "README.md" },
-    { "type": "plugin", "path": "plugin.json" },
-    { "type": "plugin", "path": "hooks.json" },
-    { "type": "plugin", "path": "bin/nono-hook.sh" },
-    { "type": "plugin", "path": "bin/denial.txt" },
-    { "type": "plugin", "path": "skills/nono-sandbox/SKILL.md" },
-    { "type": "plugin", "path": "wiring/profile-drafts-dir-marker" },
-    { "type": "plugin", "path": "wiring/import-entry.json" }
+    {
+      "type": "plugin",
+      "path": "README.md"
+    },
+    {
+      "type": "plugin",
+      "path": "plugin.json"
+    },
+    {
+      "type": "plugin",
+      "path": "hooks.json"
+    },
+    {
+      "type": "plugin",
+      "path": "bin/nono-hook.sh"
+    },
+    {
+      "type": "plugin",
+      "path": "bin/denial.txt"
+    },
+    {
+      "type": "plugin",
+      "path": "skills/nono-sandbox/SKILL.md"
+    },
+    {
+      "type": "plugin",
+      "path": "wiring/profile-drafts-dir-marker"
+    },
+    {
+      "type": "plugin",
+      "path": "wiring/import-entry.json"
+    }
   ],
   "wiring": [
     {

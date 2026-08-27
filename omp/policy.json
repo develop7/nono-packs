@@ -35,15 +35,6 @@
       "$NONO_CONFIG/profiles",
       "/etc/passwd",
       "$HOME/.local/bin/omp",
-      "$HOME/.agents/skills",
-      "$HOME/.codex/skills",
-      "$HOME/.config/opencode/skills",
-      "$HOME/.claude/plugins/cache",
-      "$HOME/.codex/config.toml",
-      "$HOME/.claude/settings.json",
-      "$HOME/.claude/plugins/installed_plugins.json",
-      "$HOME/.claude/plugins/cache",
-      "$HOME/.claude.json",
       "$HOME/.CFUserTextEncoding"
     ],
     "suppress_save_prompt": [

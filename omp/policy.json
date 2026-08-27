@@ -34,7 +34,6 @@
       "$NONO_PACKAGES",
       "$NONO_CONFIG/profiles",
       "/etc/passwd",
-      "$HOME/.local/share/mise/installs/github-can1357-oh-my-pi/latest/omp",
       "$HOME/.local/bin/omp",
       "$HOME/.agents/skills",
       "$HOME/.codex/skills",

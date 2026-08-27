@@ -105,6 +105,7 @@
     "allow_localhost": true
   },
   "allow_launch_services": true,
+  "allow_gpu": true,
   "environment": {
     "set_vars": {
       "OMP_NONO_STATUS_INDICATOR": "true"

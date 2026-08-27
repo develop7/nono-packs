@@ -49,7 +49,9 @@
     ],
     "suppress_save_prompt": [
       "$NONO_PACKAGES/nolabs-ai/omp"
-    ]
+    ],
+    "unix_socket_subtree": ["$HOME/.omp/run"],
+    "unix_socket_subtree_bind": ["$HOME/.omp/run"]
   },
   "network": {
     "block": false,

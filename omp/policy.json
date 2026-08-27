@@ -42,7 +42,6 @@
       "$HOME/.codex/config.toml",
       "$HOME/.claude/settings.json",
       "$HOME/.claude/plugins/installed_plugins.json",
-      "$HOME/.claude/plugins/cache",
       "$HOME/.claude.json",
       "$HOME/.CFUserTextEncoding"
     ],

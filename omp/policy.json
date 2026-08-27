@@ -48,7 +48,7 @@
       "$HOME/.CFUserTextEncoding"
     ],
     "suppress_save_prompt": [
-      "$NONO_PACKAGES/always-further/omp"
+      "$NONO_PACKAGES/nolabs-ai/omp"
     ]
   },
   "network": {
